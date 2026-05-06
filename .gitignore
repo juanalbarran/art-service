@@ -22,3 +22,22 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+# Gradle setup
+.gradle
+/build/
+
+# Stop Gradle from committing local properties (like SDK paths)
+local.properties
+
+# Ignore the heavy Gradle wrapper JAR (optional but recommended)
+# Many prefer to keep the .jar to allow others to build without installing Gradle
+# !gradle/wrapper/gradle-wrapper.jar
+
+# IDE Specific (IntelliJ / Eclipse / VS Code)
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+bin/

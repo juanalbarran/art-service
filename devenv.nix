@@ -20,7 +20,7 @@ in {
   env.allowed-origins = allowed-origins;
 
   packages = with pkgs; [
-    gradle
+    maven
     spring-boot-cli
     pgcli
     liquibase
